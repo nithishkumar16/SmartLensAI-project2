@@ -1,0 +1,122 @@
+.footer {
+    background-color: #1c1c1c;
+    /* Slightly softer black for a modern look */
+    padding: 2.5em 0;
+    /* Balanced padding */
+    color: #b3b3b3;
+    /* Softer gray for improved readability */
+    text-align: center;
+    /* Center-align content for a cleaner layout */
+    border-top: 4px solid #00cb6f;
+    /* Add a bold accent line at the top */
+}
+
+.footer h5 {
+    color: #ffffff;
+    /* Keep headings white for strong contrast */
+    margin-bottom: 1.2em;
+    /* Slightly larger spacing for separation */
+    font-size: 1.2rem;
+    /* Increased font size for better emphasis */
+    text-transform: uppercase;
+    /* Modern touch with uppercase letters */
+    letter-spacing: 1px;
+    /* Add spacing for a sleek look */
+}
+
+.footer a {
+    color: #d9d9d9;
+    /* Softer link color for subtlety */
+    text-decoration: none;
+    font-size: 1rem;
+    /* Standardized size for better readability */
+    transition: color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.footer a:hover {
+    color: #00cb6f;
+    /* Bright green for an eye-catching hover effect */
+}
+
+.footer p {
+    font-size: 1rem;
+    /* Larger text for readability */
+    margin: 0.5em 0;
+    /* Add spacing between paragraphs */
+    line-height: 1.5;
+    /* Enhance text legibility */
+    color: #d9d9d9;
+    /* Slightly lighter gray for paragraph text */
+}
+
+.footer .list-unstyled {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /* Use flexbox for modern layout */
+    justify-content: center;
+    /* Center the list items */
+    gap: 1.5em;
+    /* Add spacing between items */
+    margin: 1.5em 0 0;
+    /* Adjust spacing for a balanced look */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    /* For tablets and smaller screens */
+    .footer h5 {
+        font-size: 1rem;
+        /* Reduce heading size */
+    }
+
+    .footer a {
+        font-size: 0.9rem;
+        /* Reduce link font size */
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+        /* Reduce paragraph font size */
+    }
+
+    .footer .list-unstyled {
+        flex-direction: column;
+        /* Stack items vertically */
+        gap: 1em;
+        /* Adjust spacing for stacked items */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* For mobile screens */
+    .footer h5 {
+        font-size: 0.9rem;
+        /* Further reduce heading size */
+        margin-bottom: 1em;
+        /* Adjust spacing */
+    }
+
+    .footer a {
+        font-size: 0.8rem;
+        /* Further reduce link font size */
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+        /* Further reduce paragraph font size */
+        margin: 0.5em 0;
+        /* Adjust spacing */
+    }
+
+    .footer .list-unstyled {
+        gap: 0.8em;
+        /* Reduce gap between items */
+    }
+}
+
+
+

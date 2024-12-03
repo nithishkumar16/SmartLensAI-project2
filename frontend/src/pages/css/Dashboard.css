@@ -1,0 +1,168 @@
+/* Container */
+.pinterest-container {
+    max-width: 1200px;
+    margin: 3em auto;
+    padding: 4em;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.pinterest-container:hover {
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.user-avatar:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.user-stats {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-top: 0.5em;
+    line-height: 1.5;
+}
+
+/* Recommendation Section */
+.recommendation-section {
+    margin: 30px 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.recommendation-button:hover {
+    background-color: #0056b3;
+}
+
+.recommendation-message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* Grid Layout */
+.grid-container {
+    text-align: center;
+}
+
+.grid-title {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.grid-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #e9ecef;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover .grid-image {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .user-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .welcome-title {
+        font-size: 1.8rem;
+    }
+
+    .user-stats {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .welcome-title {
+        font-size: 1.5rem;
+    }
+
+    .user-stats {
+        font-size: 0.9rem;
+    }
+}
+
+

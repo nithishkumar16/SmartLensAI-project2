@@ -1,0 +1,56 @@
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    /* Slightly increased spacing for better separation */
+    font-size: 1rem;
+    /* Standardized font size */
+    font-weight: 500;
+    /* Medium font weight for better readability */
+    color: #333;
+    /* Neutral dark color for default text */
+    text-decoration: none;
+    /* Ensure links have no underline */
+    padding: 0.5em 1em;
+    /* Added padding for better clickability */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.navbar-nav .nav-link:last-child {
+    margin-right: 0;
+    /* No margin for the last item */
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #00cb6f;
+    /* Primary brand color */
+    color: white;
+    /* Text color for contrast */
+    border-radius: 6px;
+    /* Slightly rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 203, 111, 0.15);
+    /* Subtle green hover effect */
+    color: #00cb6f;
+    /* Accent color for hover text */
+    border-radius: 6px;
+    /* Match the active link's rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth hover transitions */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-right: 10px;
+        /* Reduced spacing for narrow screens */
+        font-size: 0.9rem;
+        /* Slightly smaller font for better fit */
+    }
+}
+
+
+

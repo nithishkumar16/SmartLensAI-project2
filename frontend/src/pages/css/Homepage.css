@@ -1,0 +1,206 @@
+
+#intro {
+    text-align: center;
+    overflow: hidden;
+    padding: 2em 0;
+    background-color: #ffffff;
+    /* Added background for clarity */
+}
+
+#intro section {
+    margin: 2em auto;
+    /* Center sections */
+    padding: 2.5em 1em;
+    width: 90%;
+    /* Default to full width with margin */
+    max-width: 800px;
+    /* Restrict max width for better layout */
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#intro section:hover {
+    transform: translateY(-5px);
+    /* Slight lift effect */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+#intro h2 {
+    font-size: 2rem;
+    /* Slightly larger font for headings */
+    margin-top: 1em;
+    font-weight: bold;
+    color: #343a40;
+    /* Darker heading color */
+}
+
+#intro p {
+    margin: 1em 0;
+    /* Add spacing between paragraphs */
+    color: #6c757d;
+    /* Gray for readability */
+    line-height: 1.6;
+    /* Improved line spacing */
+    font-size: 1.1rem;
+    /* Slightly larger for better readability */
+}
+
+#intro .icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #00cb6f;
+    /* Accent color for icons */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1em auto;
+    /* Center and space from text */
+}
+
+#intro .icon-container i {
+    font-size: 2rem;
+    color: #fff;
+    /* White icons for contrast */
+}
+
+#intro footer {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#intro footer .button {
+    min-width: 12em;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border-radius: 25px;
+    /* Rounded button style */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    /* White text */
+    background-color: #00cb6f;
+    /* Button background */
+    border: none;
+    /* Remove default border */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#intro footer .button:hover {
+    background-color: #018c51;
+    /* Slightly darker green for hover */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+
+    /* Tablet */
+    #intro section {
+        padding: 2em 1em;
+        /* Adjust padding for smaller screens */
+    }
+
+    #intro h2 {
+        font-size: 1.75rem;
+        /* Reduce heading size */
+    }
+
+    #intro p {
+        font-size: 1rem;
+        /* Adjust text size for readability */
+    }
+
+    #intro .icon-container {
+        width: 70px;
+        /* Reduce icon size */
+        height: 70px;
+    }
+
+    #intro .icon-container i {
+        font-size: 1.8rem;
+        /* Adjust icon size */
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Mobile */
+    #intro section {
+        margin: 1.5em auto;
+        /* Reduce spacing between sections */
+        padding: 1.5em 1em;
+        /* Reduce padding for compact layout */
+    }
+
+    #intro h2 {
+        font-size: 1.5rem;
+        /* Further reduce heading size */
+    }
+
+    #intro p {
+        font-size: 0.95rem;
+        /* Reduce paragraph font size */
+    }
+
+    #intro .icon-container {
+        width: 60px;
+        /* Further reduce icon size */
+        height: 60px;
+    }
+
+    #intro .icon-container i {
+        font-size: 1.5rem;
+        /* Adjust icon size */
+    }
+
+    #intro footer .button {
+        min-width: 10em;
+        /* Reduce button width */
+        font-size: 0.9rem;
+        /* Adjust button text size */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Small Mobile */
+    #intro section {
+        margin: 1em auto;
+        /* Compact margin for small screens */
+        padding: 1em 0.5em;
+        /* Minimized padding for compact view */
+    }
+
+    #intro h2 {
+        font-size: 1.25rem;
+        /* Smaller heading size for small screens */
+    }
+
+    #intro p {
+        font-size: 0.9rem;
+        /* Compact paragraph text */
+    }
+
+    #intro .icon-container {
+        width: 50px;
+        /* Smallest icon size */
+        height: 50px;
+    }
+
+    #intro .icon-container i {
+        font-size: 1.2rem;
+        /* Smaller icon size */
+    }
+
+    #intro footer .button {
+        min-width: 8em;
+        /* Adjust button width */
+        font-size: 0.85rem;
+        /* Adjust button text size */
+    }
+}

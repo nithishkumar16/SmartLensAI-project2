@@ -1,0 +1,41 @@
+.login-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    background-color: #d1263ade;
+    /* Pinterest red */
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #9b0616;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-button:active {
+    transform: scale(0.95);
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.login-container p {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 2rem;
+}

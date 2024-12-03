@@ -1,0 +1,101 @@
+#banner {
+    background: url("https://res.cloudinary.com/monday-blogs/fl_lossy,f_auto,q_auto/wp-blog/2021/05/process-analysis.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    padding: 8em 0;
+    margin: 3em 0 0 0;
+    color: #ffffff;
+}
+
+#banner header {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    padding: 2em 4em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+#banner header h2 {
+    color: #f8f9fa;
+    font-weight: 800;
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#banner header p {
+    color: #000000;
+    font-size: 1.7em;
+    margin: 0;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+
+    /* Tablet styles */
+    #banner {
+        padding: 6em 0;
+    }
+
+    #banner header h2 {
+        font-size: 2.5em;
+        /* Reduce font size for tablets */
+    }
+
+    #banner header p {
+        font-size: 1.4em;
+        /* Adjust text size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Mobile styles */
+    #banner {
+        padding: 4em 0;
+        /* Reduce padding for mobile devices */
+    }
+
+    #banner header {
+        padding: 1.5em 2.5em;
+        /* Reduce header padding */
+    }
+
+    #banner header h2 {
+        font-size: 2em;
+        /* Further reduce font size */
+    }
+
+    #banner header p {
+        font-size: 1.2em;
+        /* Adjust paragraph font size */
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Small mobile screens */
+    #banner {
+        padding: 3em 0;
+    }
+
+    #banner header {
+        padding: 1em 1.5em;
+    }
+
+    #banner header h2 {
+        font-size: 1.8em;
+    }
+
+    #banner header p {
+        font-size: 1em;
+    }
+}
+
+
