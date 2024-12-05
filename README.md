@@ -1,4 +1,4 @@
-Welcome to SmartLens AI 2.0—a powerful tool tailored for social media influencers who aim to enhance their brand visibility, understand audience engagement, and boost their content strategy using cutting-edge visual analytics.
+Welcome to SmartLens AI 2.0—a powerful tool tailored for social media influencers who aim to enhance their brand visibility, understand audience engagement, and boost their content strategy using visual analytics.
 
 Application URL: https://frontend2-dot-project2-443005.wl.r.appspot.com/
 
